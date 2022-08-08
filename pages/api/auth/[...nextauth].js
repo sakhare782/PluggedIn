@@ -16,6 +16,8 @@ async function refreshAccessToken(token) {
     const response = await fetch(url, {
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Origin": "*"
       },
       method: "POST",
     });

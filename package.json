@@ -14,6 +14,7 @@
     "@tailwindcss/forms": "^0.3.4",
     "better-react-spinkit": "^2.0.4",
     "faker": "^5.5.3",
+    "lodash": "^4.17.21",
     "next": "latest",
     "next-auth": "4.0.0-beta.5",
     "prop-types": "^15.7.2",
